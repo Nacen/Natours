@@ -1,0 +1,20 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+@mixin perspective {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    -ms-perspective: 150rem;
+    -webkit-perspective: 150rem;
+}
+
+@mixin background-clip {
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+}
